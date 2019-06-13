@@ -1,0 +1,376 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.bgad
+{
+	background: url('campusA1.png'); 
+	background-size: 100% 100%;
+	width: 100%; 
+	height: 100vh;
+}
+
+.bgst
+{
+	background: url('campusS1.jpe'); 
+	background-size: 100% 100%;
+	width: 100%; 
+	height: 100vh;
+}
+
+.form-container
+{
+	border: 0px solid #fff;
+	padding: 50px 60px;
+	margin-top: 25vh;
+	box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);
+}
+.btn1
+{
+	border:1px solid white;
+	border-radius: 50px;
+}
+
+.form-container-1
+{
+	background: url('studenthome.jpg');
+	background-size: 100% 100%;
+	border: 0px solid #fff;
+	padding: 50px 60px;
+	box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);
+}
+
+.form-container-2
+{
+	background: url('background1.jpg');
+	background-size: 100% 100%;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	border: 0px solid #fff;
+	padding: 50px 60px;
+	box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);
+}
+
+.css3-notification 
+{
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  color: orange;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 25px;
+  position: relative;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  animation-name:bounce;
+  animation-duration:0.8s;
+}
+@keyframes bounce 
+{
+    0% { transform:translateY(-100%); opacity: 0; }
+	5% { transform:translateY(-100%); opacity: 0; }
+	15% { transform:translateY(0);  padding-bottom: 5px;}
+	30% { transform:translateY(-50%);}
+	40% { transform:translateY(0%);  padding-bottom: 6px;}
+	50% { transform:translateY(-30%);}
+	70% { transform:translateY(0%); padding-bottom: 7px;}
+	80% { transform:translateY(-15%);}
+	90% { transform:translateY(0%); padding-bottom: 8px;}
+	95% { transform:translateY(-7%);}
+	97% { transform:translateY(0%); padding-bottom: 9px;}
+	99% { transform:translateY(-3%);}
+	100% { transform:translateY(0);  padding-bottom: 9px;  opacity: 1;}
+}
+
+.slidead
+{
+	animation-name: slide1;
+	animation-duration: 2s;
+}
+@keyframes slide1
+{
+	0% { transform:translateX(-100%) }
+}
+.slideadh:hover
+{
+	transform: scale(1.2);
+}
+
+.slidest
+{
+	animation-name: slide2;
+	animation-duration: 2s;
+}
+@keyframes slide2
+{
+	0% { transform:translateX(100%) }
+}	
+.slidesth:hover
+{
+	transform: scale(1.2);
+}
+
+.designi
+{
+	background-color: rgba(0,0,0,0.7);
+	border: 1px solid white;
+	font-size: 30px;
+	width: 275px;
+	height: 50px;
+	text-align: center;
+	line-height: 45px;
+	color: orange;
+	border-radius: 20px;
+}
+
+.bgimage
+{
+	background-image: url('CollegeFrontView.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+
+.bgimage2
+{
+	background-image: url('background1.jpe');
+	background-size: 100% 100%;
+	width: 100%;
+	height:100vh;
+}
+
+.bgimg
+{
+	background-image: url('CollegeFrontView.jpg');
+}
+
+.indexmenu
+{
+	width: 100%;
+	height: 20%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.menu
+{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.menuani
+{
+	animation-name: bounce1;
+	animation-duration: 2s;
+}
+@keyframes bounce1
+{
+	0% {transform:translateX(-100%);}
+}
+
+.leftmenu
+{
+	width: 25%;
+	line-height: 100px;
+	float: left;
+}
+
+.leftmenu h4
+{
+	padding-left: 60px;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat',sans-serif;
+	line-height: 80px;
+}
+
+.leftmenu h4:hover
+{
+	color: orange;
+}
+
+#menu1 ul
+{
+	list-style: none;
+	padding-top: 30px;
+	padding-left: 500px;
+}
+
+#menu1 ul li
+{
+	background-color: navy;
+	border: 1px solid white;
+	width: 275px;
+	height: 50px;
+	text-align: center;
+	line-height: 45px;
+	float: left;
+	position: relative;
+}
+
+#menu1 ul ul li a
+{
+	font-size: 25px;
+}
+
+#menu1 ul li a
+{
+	text-decoration: none;
+	color: white;
+	width: 275px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Montserrat',sans-serif;
+	display: block;
+}
+
+#menu1 ul li a:hover
+{
+	color: orange;
+}
+
+#menu1 ul ul
+{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	display: none;
+}
+
+#menu1 ul li:hover > ul
+{
+	display: block;
+}
+
+.rightmenu1 li a
+{
+	/*width: 25%;*/
+	padding-right: 70px;
+	line-height: 100px;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	font-family: 'Montserrat',sans-serif;
+	float: right;
+}
+
+.leftmenu1 ul li a
+{
+	width: 50%;
+	padding-left: 50px;
+	line-height: 65px;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat',sans-serif;
+/*	float: left;*/
+}
+
+.design
+{
+	color:black;
+	font-size: 30px;
+	font-weight: bold; 
+	font-family: 'Montserrat',sans-serif;
+}
+
+.des
+{
+	color:white;
+	font-size: 30px;
+	font-weight: bold; 
+	font-family: 'Montserrat',sans-serif;
+}
+
+.design1
+{
+	color:black;
+	font-size: 20px;
+	font-weight: bold; 
+	font-family: 'Montserrat',sans-serif;
+}
+
+.design2
+{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.design2 h2
+{
+	color: black;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.design3
+{
+	color:black;
+	font-size: 40px;
+	padding-left: 15px;
+	padding-right: 20px;
+	font-weight: bold; 
+	font-family: 'Montserrat',sans-serif;
+}
+
+.design4
+{
+	color: black;
+	font-size: 25px;
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+.form-control
+{
+	background: rgba(255,255,255,1);
+	/*background-color:#d1d1d1;*/
+	border: 0px;
+	border-radius: 50px;
+	border-bottom: 1px solid white;
+	font-size: 18px;
+	color: black;
+}
+
+.modal-header 
+{
+ 	padding:0px;
+}
+
+.adlog
+{
+	width: 100px;
+	height: 100px;
+	/*border-radius: 50%;*/
+	position: absolute;
+	top: -60px;
+	left: 140px;
+}
+
+.login-box
+{
+	width: 380px;
+	height: 420px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 50px;
+}
+
+.img
+{
+	margin: auto;    
+    display: block;
+	text-align: center;
+}
